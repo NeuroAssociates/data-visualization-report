@@ -1,4 +1,4 @@
-#### Written By HOHYUNJUN, KOOKMIN UNIV. SW major 20132926  
+#### Written By HOHYUNJUN, KOOKMIN UNIV. SW major senior  
 Korean Version Link : [한국어 버전](DataVisualizationReport(Kor).md)  
 [The Web Site I made for this report](Data_Visualization/DataVisualization.html)  
 
