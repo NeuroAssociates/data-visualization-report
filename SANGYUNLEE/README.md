@@ -1,4 +1,4 @@
-#### Written By SANGYUN LEE, KOOKMIN UNIV. SW major 
+#### Written By SANGYUN LEE, KOOKMIN UNIV. SW major junior
 
 Compare existed Chart library 
 ======
