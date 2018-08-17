@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Visualization - Pie Chart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./lib/billboard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- d3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!-- billboard.js -->
+    <script src="./lib/billboard.js"></script>
+    <!-- Echarts.js -->
+    <script src="./lib/echarts.common.min.js"></script>
+    <!-- NHN toast -->
+    <link rel="stylesheet" href="lib/bower_components/tui-chart/dist/tui-chart.min.css">
+    <script src="lib/bower_components/tui-code-snippet/dist/tui-code-snippet.min.js"></script>
+    <script src="lib/bower_components/raphael/raphael.min.js"></script>
+    <script src="lib/bower_components/tui-chart/dist/tui-chart.min.js"></script>
+    <script src="lib/bower_components/tui-chart/dist/maps/world.js"></script>
+    <!-- .js file -->
+    <script src="PieChart.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" style="margin-bottom:0px;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="DataVisualization.html" style="color:white;">Data Visualization</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="./BarChart.html">Bar Chart</a>
+            </li>
+            <li class="active">
+                <a href="./PieChart.html">Pie Chart</a>
+            </li>
+            <li>
+                <a href="./LineChart.html">Line Chart</a>
+            </li>
+            <li>
+                <a href="./BubbleChart.html">Bubble Chart</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron text-center">
+    <h1>Pie Chart</h1>
+    <p>Pie Chart with Chart.js, D3, BillBoard.js</p>
+</div>
+
+<div class="container">
+    <div class="row" style="height:500px;">
+        <div class="col-sm-6">
+            <h3>D3 Graph</h3>
+            <div class="d3Graph">
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <h3>Chart.js Graph</h3>
+            <div class="chartJsGraph">
+                <canvas id="ChartJs" width="600" height="400"></canvas>
+
+            </div>
+        </div>
+    </div>
+    <div class="row" style="height:500px">
+        <div class="col-sm-6">
+            <h3>BillBoard.js Graph</h3>
+            <div id="billBoardChart"></div>
+
+        </div>
+        <div class="col-sm-6">
+            <h3>ECharts.js Graph</h3>
+            <div id="eChartsGraph" style="width:600px; height:400px"></div>
+        </div>
+    </div>
+    <div class="row" style="height:500px">
+        <div class="col-sm-6">
+            <h3>Toast.js Graph</h3>
+            <div id="toastChart"></div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

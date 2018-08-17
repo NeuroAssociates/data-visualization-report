@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Visualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="./lib/billboard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- d3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!-- billboard.js -->
+    <script src="./lib/billboard.js"></script>
+    <!-- Echarts.js -->
+    <script src="./lib/echarts.common.min.js"></script>
+    <!-- NHN toast -->
+    <link rel="stylesheet" href="lib/bower_components/tui-chart/dist/tui-chart.min.css">
+    <script src="lib/bower_components/tui-code-snippet/dist/tui-code-snippet.min.js"></script>
+    <script src="lib/bower_components/raphael/raphael.min.js"></script>
+    <script src="lib/bower_components/tui-chart/dist/tui-chart.min.js"></script>
+    <script src="lib/bower_components/tui-chart/dist/maps/world.js"></script>
+    <!-- .js file -->
+    <script src="./DataVisualization.js"></script>
+    <style>
+        .well{
+            margin-left:50px;
+            margin-right:30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="margin-bottom:0px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="DataVisualization.html" style="color:white;">Data Visualization</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="./BarChart.html">Bar Chart</a>
+                </li>
+                <li>
+                    <a href="./PieChart.html">Pie Chart</a>
+                </li>
+                <li>
+                    <a href="./LineChart.html">Line Chart</a>
+                </li>
+                <li>
+                    <a href="./BubbleChart.html">Bubble Chart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="background-color:#f5f5f5;">
+        <div class="container">
+            <div class="row" style="height:100px; text-align:center; padding:30px 0;">
+                <span style="font-size:30px;">Example Charts Of Web Frameworks</span>
+            </div>
+            <div class="row" style="height:400px;">
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>Chart.js Graph</h3>
+                    <div class="chartJsGraph">
+                        <canvas id="ChartJs" width="400" height="250"></canvas>
+                    </div>
+                </div>
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>BillBoard.js Graph</h3>
+                    <div id="billBoardChart"></div>
+                </div>
+            </div>
+            <div class="row" style="height:400px">
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>BillBoard.js Graph</h3>
+                    <div id="billBoardBubbleChart"></div>
+                </div>
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>D3.js Graph</h3>
+                    <div class="d3PieGraph"></div>
+                </div>
+            </div>
+            <div class="row" style="height:400px">
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>Echarts.js Graph</h3>
+                    <div id="echartsGraph" style="width:450px; height:300px;"></div>
+                </div>
+                <div class="col-sm-5 well well-lg" style="background-color:white;">
+                    <h3>Toast.js Graph</h3>
+                    <div id="toastGraph"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
