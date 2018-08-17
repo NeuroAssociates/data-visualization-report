@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Calculator</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="http://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+    <link rel="stylesheet" href="billboard.css">
+
+
+</head>
+<body>
+    <div id="main"> Data Visualization </div>
+    <div class = "menu">
+        <a href="main.html">calculator</a>
+        <a href="chartjs.html">chart.js</a>
+        <a href="d3js.html">d3.js</a>
+        <a href="billboard.html">billboard.js</a>
+        <a href="toastjs.html">toast.js</a>
+
+    </div>
+
+    <!--billboard.js-->
+    <div id="billchart"></div>
+    <div id="billName">BarGraph</div>
+    <div class="billboard "id="billBar"></div>
+
+    <div id="billName">PieGraph</div>
+    <div class="billboard" id = "billPie"></div>
+
+    <div id="billName">LineGraph</div>
+    <div  class="billboard"id = "billLine"></div>
+
+    <div id="billboardchartTimeStamp">
+      <p><b>Chart's Execution Time</b></p>
+      <div id="timestamp_BillboardBarChart"></div>
+      <div id="timestamp_BillboardPieChart"></div>
+      <div id="timestamp_BillboardLineChart"></div>
+    </div>
+
+
+    <script type="text/javascript" src="billboard.js"></script>
+    <script type="text/javascript" src="bill.js"></script>
+
+
+
+</body>
+
+</html>

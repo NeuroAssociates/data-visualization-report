@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="http://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+    <script type="text/javascript" src="chartjs.js"></script>
+
+
+
+</head>
+<body>
+    <div id="main"> Data Visualization </div>
+    <div class = "menu">
+        <a href="main.html">calculator</a>
+        <a href="chartjs.html">chart.js</a>
+        <a href="d3js.html">d3.js</a>
+        <a href="billboard.html">billboard.js</a>
+        <a href="toastjs.html">toast.js</a>
+
+    </div>
+
+    <!--chart.js-->
+    <div id="barChartName">BarGraph</div>
+    <div id="barChart">
+        <canvas id="bar_chart" style="width:350px; height:350px"></canvas>
+    </div>
+
+    <div id="lineChartName">LineGraph</div>
+    <div id="lineChart">
+        <canvas id="line_chart" style="width:350px; height:350px"></canvas>
+    </div>
+
+    <div id="pieChartName">PieGraph</div>
+    <div id="pieChart">
+        <canvas id="pie_chart" style="width:350px; height:350px"></canvas>
+    </div>
+
+    <div id="bubbleChartName">BubbleGraph</div>
+    <div id="bubbleChart">
+        <canvas id="bubble_chart" style="width:350px; height:350px"></canvas>
+    </div>
+
+    <div id="chartTimeStamp">
+      <p><b>Chart's Execution Time</b></p>
+      <div id="timestamp_chartjsBar"></div>
+      <div id="timestamp_chartjsLine"></div>
+      <div id="timestamp_chartjsPie"></div>
+      <div id="timestamp_chartjsBubble"></div>
+    </div>
+
+
+</body>
+
+</html>
