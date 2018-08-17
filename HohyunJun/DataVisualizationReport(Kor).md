@@ -1,5 +1,5 @@
 English Version Link : [영어 버전](DataVisualizationReport(Eng).md)  
-[보고서 쓰면서 만든 웹사이트](Data_Visualization/DataVisualization.html)
+[보고서 쓰면서 만든 웹사이트](Data_Visualization/DataVisualization.html)  
 
 # Data Visualization Report
 기존 데이터시각화 웹 프레임워크 분석
