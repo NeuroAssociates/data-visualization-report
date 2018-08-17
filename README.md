@@ -8,8 +8,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 
 ## Data Visualization Report
 > Written By HOHYUNJUN, KOOKMIN UNIV. SW major senior
-* [Report(English)](./HohyunJun/DataVisualizationReport(Eng).md)
-* [Report(Korean)](./HohyunJun/DataVisualizationReport(Kor).md)
+* Reports in [English](./HohyunJun/DataVisualizationReport(Eng).md) and [Korean](./HohyunJun/DataVisualizationReport(Kor).md)
 * Based project [source code](./HohyunJun/Data_Visualization) and [view](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/DataVisualization.html)
 
 ***
