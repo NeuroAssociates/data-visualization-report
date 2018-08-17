@@ -10,7 +10,8 @@ English Version Link : [영어 버전](DataVisualizationReport(Eng).md)
 * 문서화는 어느정도 지원되고 있는가?
 * 장점과 단점을 짧게 요약
 
-**이 보고서는 아래와 같은 버전의 프레임워크를 기준으로 쓰여졌습니다.**
+**이 보고서는 아래와 같은 버전의 프레임워크를 기준으로 쓰여졌습니다.**  
+
   | Framework Name | Version |
   |:--------------:|:-------:|
   |      D3.js     |    v4   |
@@ -23,6 +24,7 @@ English Version Link : [영어 버전](DataVisualizationReport(Eng).md)
 ---
 결론부터 말하자면, 비교결과는 아래와 같다.
 * 실행속도(빠른 순서) : **D3.js > Chart.js > echarts.js >= billboard.js > Toast.js**
+
     | Rank | Framework Name | Average Execution time |
     |:----:|:--------------:|:----------------------:|
     |   1  |      D3.js     |         3~10ms         |
@@ -31,6 +33,7 @@ English Version Link : [영어 버전](DataVisualizationReport(Eng).md)
     |   4  |  billboard.js  |        83~159ms        |
     |   5  |    Toast.js    |        103~181ms       |  
 * 개발 난이도(쉬운 순서) : **Chart.js == billboard.js >= Toast.js >= echarts.js > D3.js**
+
     | Rank | Framework Name | Learning Curve |
     |:----:|:--------------:|:--------------:|
     |   1  |    Chart.js    |     Shallow    |
@@ -39,6 +42,7 @@ English Version Link : [영어 버전](DataVisualizationReport(Eng).md)
     |      |   Echarts.js   |     Shallow    |
     |   3  |      D3.js     |      Steep     |
 * 문서화 정도(잘 되어있는 순서) : **billboard.js > echarts.js == Toast.js == chart.js == D3.js**
+
     | Rank | Framework Name | Well-organized |
     |:----:|:--------------:|:--------------:|
     |   1  |  billboard.js  |     Good       |
@@ -47,6 +51,7 @@ English Version Link : [영어 버전](DataVisualizationReport(Eng).md)
     |      |    Chart.js    |     Fair       |
     |      |      D3.js     |     Fair       |
 * 차트의 다양성 : **D3.js > echarts.js > Toast.js > chart.js >= billboard.js**
+
     | Rank | Framework Name | Implementation Flexibility |
     |:----:|:--------------:|:--------------------------:|
     |   1  |      D3.js     |        Very Flexible(You can draw as you like)      |
