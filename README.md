@@ -16,7 +16,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 ## Data Visualization frameworks
 > Written By Hwang SeungAe, KOOKMIN UNIV. SW major junior
 * [Report](./HwangSeungAe/README.md)
-* Based project [source code](./HwangSeungAe) and [view](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/D3JS.html)
+* Based project [source code](./HwangSeungAe) and [view](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/Dashboard.html)
 
 ***
 
