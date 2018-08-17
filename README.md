@@ -6,5 +6,5 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 
 
 * [Hohyun Jun (KOOKMIN UNIV. SW major senior)](./HohyunJun/DataVisualizationReport(Eng).md)
-* [Sangyun Lee, KOOKMIN UNIV. SW major junior)](./SANGYUNLEE/README.md)
+* [Sangyun Lee (KOOKMIN UNIV. SW major junior)](./SANGYUNLEE/README.md)
 
