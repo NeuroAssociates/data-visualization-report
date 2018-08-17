@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset='UTF-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=Edge'/>
+      <title>Toast_Charts</title>
+      <script type='text/javascript' src='https://rawgit.com/nhnent/tui.code-snippet/v1.3.0/dist/tui-code-snippet.js'></script>
+      <script type='text/javascript' src='https://rawgit.com/nhnent/raphael/v2.2.0b/raphael.js'></script>
+      <script src='tui-chart.js'></script>
+      <script type="text/javascript" src="toastChart.js"></script>
+
+    </head>
+
+    <style type="text/css">
+
+      body {
+        background: lightgray;
+      }
+
+      #menu {
+        width: 200px;
+        height: 1940px;
+        background: #606F82;
+        float: left;
+        font-size: 23px;
+        text-align: center;
+        color: #A59C91;
+      }
+
+      #content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 150px);
+      }
+
+      #label {
+        font-size: 50px;
+        color: #434B56;
+        text-align: center;
+        margin-left: -750px;
+        margin-top: 20px;
+      }
+
+      #logo {
+        text-align: center;
+        font-size: 30px;
+        color: #C8C2B6;
+      }
+
+      #timestamp_toastBarChart, #timestamp_toastLineChart, #timestamp_toastAreaChart,
+      #timestamp_toastPieChart, #timestamp_toastColumnChart, #timestamp_toastRadialChart {
+        margin-left: 100px;
+        color: coral;
+      }
+
+
+      .lound {
+        margin: 25px;
+      }
+
+    </style>
+
+    <body>
+      <div id="menu">
+        <a id="logo" href="./Dashboard.html">
+            </br></br></br></br> [ MENU ] </a></br></br></br>
+            <a href="./D3JS.html">D3_JS</a>
+          </ui></br></br>
+          <ui>
+            <a href="./ChartJS.html">CHART_JS</a>
+          </ui></br></br>
+          <ui>
+            <a href="./BillBoardJS.html">BILLBOARD_JS</a>
+          </ui></br></br>
+          <ui>
+            <a href="./toastChart.html">TOAST_JS</a>
+          </ui>
+      </div>
+
+      <div id="content"></br>
+        <div id="label"> [ Toast Charts ] </div>
+
+        <div class="lound">
+          <div id='toastBarChart'></div></br>
+          <div id="timestamp_toastBarChart"></div>
+        </div>
+
+        <div class="lound">
+          <div id='toastLineChart'></div></br>
+          <div id="timestamp_toastLineChart"></div>
+        </div>
+
+        <div class="lound">
+          <div id='toastAreaChart'></div></br>
+          <div id="timestamp_toastAreaChart"></div>
+        </div>
+
+        <div class="lound">
+          <div id='toastPieChart'></div></br>
+          <div id="timestamp_toastPieChart"></div>
+        </div>
+
+        <div class="lound">
+          <div id='toastColumnChart'></div></br>
+          <div id="timestamp_toastColumnChart"></div>
+        </div>
+
+        <div class="lound">
+          <div id='toastRadialChart'></div></br>
+          <div id="timestamp_toastRadialChart"></div>
+        </div>
+
+      </div>
+    </body>
+  </html>

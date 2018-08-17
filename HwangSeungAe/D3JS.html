@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> D3_Charts </title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="billboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="billboard.css" />
+    <script type="text/javascript" src="D3Calculator.js"></script>
+
+
+    <style type="text/css">
+
+      body {
+        background: lightgray;
+      }
+
+      #menu {
+        width: 200px;
+        height: 1150px;
+        background: #606F82;
+        float: left;
+        font-size: 23px;
+        text-align: center;
+        color: #A59C91;
+      }
+
+
+      #contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 150px);
+      }
+
+      #label {
+        font-size: 50px;
+        color: #434B56;
+        text-align: center;
+        margin-left: -680px;
+        margin-top: 20px;
+      }
+
+      #logo {
+        text-align: center;
+        font-size: 30px;
+        color: #C8C2B6;
+      }
+
+
+      #timestamp_d3CircleChart, #timestamp_d3BarChart, #timestamp_d3LineChart {
+        margin: 50px;
+        color: coral;
+        font-size: 17px;
+      }
+
+      .time {
+
+        font-size: 30px;
+        text-align:center;
+
+      }
+
+      .lound {
+        margin: 15px;
+        width: 650px;
+        height: 450px;
+        background: whitesmoke;
+        font-size: 30px;
+        color: black;
+        text-align:center;
+      }
+
+      .graph {
+        width: 600px;
+        height: 380px;
+        margin: 25px;
+        background: whitesmoke;
+      }
+
+
+      .innerAxis {
+        stroke: grey;
+        stroke-width: 1.5px;
+      }
+
+      .lineChart {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+     }
+
+     .lineChart:hover {
+       stroke: black;
+       stroke-width: 3px;
+     }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <a id="logo" href="./Dashboard.html">
+          </br></br></br></br> [ MENU ] </a></br></br></br>
+          <a href="./D3JS.html">D3_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./ChartJS.html">CHART_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./BillBoardJS.html">BILLBOARD_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./toastChart.html">TOAST_JS</a>
+        </ui>
+      </div>
+
+    <div id="contents"></br>
+      <div id="label"> [ D3 Charts ] </div>
+
+      <div class="time"> [ Execution Time ]
+        <div id="timestamp_d3BarChart"></div>
+        <div id="timestamp_d3CircleChart"></div>
+        <div id="timestamp_d3LineChart"></div>
+      </div>
+
+
+      <div class="lound"> [ Bar ]
+        <div class="graph">
+          <div id="d3BarGraph"></div>
+        </div>
+      </div>
+
+      <div class="lound"> [ Circle ]
+        <div class="graph">
+          <div id="d3CircleGraph"></div>
+        </div>
+      </div>
+
+      <div class="lound"> [ Line ]
+        <div class="graph">
+          <div id="d3LineGraph"></div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
