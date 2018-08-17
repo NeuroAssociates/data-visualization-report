@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Dashboard Charts </title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="billboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="billboard.css" />
+    <script type="text/javascript" src="Svg.js"></script>
+
+
+    <style type="text/css">
+
+      body {
+        background: lightgray;
+      }
+
+      #menu {
+        width: 200px;
+        height: 1050px;
+        background: #606F82;
+        float: left;
+        font-size: 23px;
+        text-align: center;
+        color: #A59C91;
+      }
+
+
+      #contents {
+        font-size: 50px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 120px);
+      }
+
+      #label {
+        font-size: 50px;
+        color: #434B56;
+        margin-left: -670px;
+        margin-top: 20px;
+
+      }
+
+      #logo {
+        text-align: center;
+        font-size: 30px;
+        color: #C8C2B6;
+      }
+
+      #calculator {
+        margin-left: -30px;
+        margin-top: -30px;
+      }
+
+      #SvgGraph {
+        margin-left: -30px;
+        margin-top: 35px;
+      }
+
+      #textBox {
+        fill: #151515;
+        width: 390px;
+        height: 150px;
+        text-align: right;
+        padding: 10px;
+        margin: 3px;
+        background: black;
+        border: 2px;
+      }
+
+      #display {
+        fill: white;
+        font-size: 45px;
+        color : white;
+        text-align: right;
+
+      }
+
+
+      .lound {
+        margin: 45px;
+        margin-top: 170px;
+        width: 650px;
+        background: whitesmoke;
+        height: 450px;
+        font-size: 30px;
+        color: black;
+        text-align:center;
+      }
+
+
+      .loundBody {
+        margin: 45px;
+        width: 530px;
+        height: 735px;
+        background: whitesmoke;
+        font-size: 30px;
+        color: black;
+        text-align:center;
+      }
+
+
+      .labelKind {
+        padding: 60px;
+        font-size: 50px;
+        color: coral;
+        text-align: center;
+      }
+
+      .textEtc{
+        fill: black;
+        font-size: 40px;
+        font-weight: 400;
+        text-anchor: middle;
+      }
+
+      .text{
+        fill: white;
+        font-size: 40px;
+        font-weight: 400;
+        text-anchor: middle;
+      }
+
+      .buttonNumber {
+        fill: dimgray;
+        padding: 30px;
+        margin: 2px;
+        border: 2px;
+        display: inline-block;
+      }
+
+      .buttonSign {
+        fill: orange;
+        width: 90px;
+        height: 80px;
+        padding: 30px;
+        margin: 2px;
+        border: 2px;
+        display: inline-block;
+      }
+
+      .buttonEtc {
+        fill: lightgray;
+        width: 90px;
+        height: 80px;
+      }
+
+
+      .innerAxis {
+        stroke: black;
+        stroke-dasharray: 10;
+      }
+
+      .label {
+        font-size: 12px;
+
+      }
+
+      .xLabel {
+        font-size: 20px;
+      }
+
+      .yLabel {
+        font-size: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="menu"></br>
+      <a id="logo" href="./Dashboard.html">
+          </br></br></br></br>[ MENU ] </a></br></br></br>
+          <a href="./D3JS.html">D3_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./ChartJS.html">CHART_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./BillBoardJS.html">BILLBOARD_JS</a>
+        </ui></br></br>
+        <ui>
+          <a href="./toastChart.html">TOAST_JS</a>
+        </ui>
+      </div>
+
+    <div id="contents"></br>
+      <div id="label"> # FrameWorks DashBoard # </div>
+
+
+      <div class="loundBody"> [ Calculator ]
+          <div id="calculator"></div>
+      </div>
+
+
+      <div class="lound"> [ SVG ]
+          <div id="SvgGraph"></div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
