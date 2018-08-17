@@ -1,0 +1,210 @@
+/*
+//  Calculator project.
+//  tscChart.css.
+//  
+//
+//  Created by SunHong Lee on 2018. 7. 17.
+//
+//
+//
+*/
+
+body {
+  overflow-y: hidden;
+  margin: 0%;
+  font-family: Apple SD Gothic Neo;
+}
+
+#title {
+  margin: 50px 0% 50px 15%;
+  text-align:center;
+  color: #fff5ff;
+  font-weight: 900;
+  font-size: 30px;
+  width: 500px;
+}
+
+#display {
+  fill: white;
+  font-family: Verdana;
+  font-size: 35;
+}
+
+#displayPanel {
+  fill: #dedee0;
+  opacity: 0.3;
+}
+
+.calcButton {
+  height:67.5px;
+  width:65px;
+  fill: #dedee0;
+  font-size:30px;
+  opacity: 0.3;
+}
+
+.calcButtonText {
+  fill: #dedee0;
+}
+
+#zero {
+  width:131px;
+}
+
+.calcButton:hover {fill: lightgray; opacity: 0.6;}
+.calcButton:active {fill: violet;}
+.calcButton:visited {fill: lightgray;}
+
+.calcButtonText:hover {fill: #dedee0;}
+.calcButtonText:active {fill: violet;}
+.calcButtonText:visited {fill: black;}
+
+#zero:hover {fill: lightgray;}
+#zero:active {fill: violet;}
+#zero:visited {fill: lightgray;}
+
+.btnO {fill:#FF8C2D;}
+.btnO:hover {fill: orange;}
+.btnO:active {fill: violet;}
+.btnO:visited {fill: orange;}
+
+
+/*그래프 CSS 속성 적용*/
+
+.graph {
+  height: 500px;
+  width: 800px;
+}
+
+.graph .grid {
+  stroke: black;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+#xGrid {
+  stroke: black;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+#yGrid {
+  stroke: black;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  fill: black;
+}
+
+.D3bar, .jsbar, .D3Bubble {
+  fill: #fff5ff;
+  stroke-width: 1; 
+  /*svg 그래프의 애니메이션을 적용하기 위한 코드.*/
+  transition-property: all; 
+  transition-duration: 0.8s; 
+  transition-timing-function: ease-in-out;
+}
+
+.D3Lines {
+  /*svg 그래프의 애니메이션을 적용하기 위한 코드.*/
+  transition-property: all;
+  transition-duration: 0.8s; 
+  transition-timing-function: linear;
+}
+
+.bar:hover, .jsbar:hover {
+  fill: violet;
+}
+
+.barText {
+  font-weight: 500;
+  fill: violet;
+}
+
+#calculatorBody {
+  display: inline-block;
+  margin: -0.3%;
+  float: left;
+  height: 820px;
+  width: 30%;
+  padding: 5% 0% 0% 0%;
+  background: linear-gradient(to right, #A8699D, #988ABC, #81A4D0);
+  
+}
+
+#graphBody {
+  display: inline-block;
+  float: left;
+  overflow-y: scroll;
+  height: 880px;
+  width: 70%;
+  background: linear-gradient(to right, #A8699D, #988ABC, #81A4D0);
+}
+
+.tick {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+#chartGraph {
+  display: inline-block;
+}
+
+.Charts {
+  color:#fff5ff;
+  text-transform: uppercase;
+  text-align: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 380px;
+  height: 400px;
+  float: left;
+  background: linear-gradient(to right, rgba(53, 33, 114, 0.3), rgba(77, 41, 128, 0.3), rgba(96, 48, 141, 0.3));
+}
+
+#myChart, #myChart2, #myChart3 {
+  padding: 1.5% 1.5% 0% 4%;
+  float: left;
+}
+
+#D3Bar, #D3Line {
+  padding: 0% 0% 0% 10%;
+  float: left;
+}
+
+#chart1, #chart2, #chart3 {
+  float: left; 
+}
+
+.emptySpace {
+  clear: left;
+}
+
+.divLine {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid 1px lightgray;
+  width: 280px;
+}
+
+.frameworks {
+  padding-top: 20px;
+  padding-right: 48px;
+  font-weight: 100;
+}
+
+.bb-axis {
+  stroke: #fff5f5;
+}
+
+.bb-axis.bb-axis line, .bb-axis .domain {
+  opacity: 0.1;
+}

@@ -1,0 +1,96 @@
+<!-- 
+//
+//  Calculator project.
+//  cvgChartEdit.html.
+//  
+//
+//  Created by SunHong Lee on 2018. 7. 10.
+//
+//
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="frameChart.css"/>    
+    <link rel="stylesheet" href="billboard.css"/> 
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="calculatorBody"></div>
+    <div id="graphBody">
+        <h1 id="title">Data Visualization</h1>
+        
+        <div class="Charts">
+            <p class="frameworks">Chart.js-BAR</p>
+            <hr class="divLine"/>
+            <canvas id="myChart" width="325" height="250"></canvas>
+        </div>
+
+        <div class="Charts">
+            <p class="frameworks">D3.js-BAR</p>
+            <hr class="divLine"/>
+            <div id="D3Bar"></div>
+        </div>
+
+        <div class="Charts">
+            <p class="frameworks">Billboard.js-BAR</p>
+            <hr class="divLine"/>
+            <div id="chart1"></div>
+        </div>
+
+        <div class="emptySpace"></div>
+
+        <div class="Charts">
+                <p class="frameworks">Chart.js-Line</p>
+                <hr class="divLine"/>
+                <canvas id="myChart2" width="325" height="250"></canvas>
+        </div>
+
+        <div class="Charts">
+                <p class="frameworks">D3.js-Line</p>
+                <hr class="divLine"/>
+                <div id="D3Line"></div>
+        </div>
+
+        <div class="Charts">
+                <p class="frameworks">Billboard.js-Line</p>
+                <hr class="divLine"/>
+                <div id="chart2"></div>
+        </div>
+
+        <div class="emptySpace"></div>
+        
+        <div class="Charts">
+            <p class="frameworks">Chart.js-Bubble</p>
+            <hr class="divLine"/>
+            <canvas id="myChart3" width="325" height="250"></canvas>
+        </div>
+
+        <div class="Charts">
+            <p class="frameworks">D3.js-Bubble</p>
+            <hr class="divLine"/>
+            <div id="D3Bubble"></div>
+        </div>
+        
+        <div class="Charts">
+            <p class="frameworks">Billboard.js-Bubble</p>
+            <hr class="divLine"/>
+            <div id="chart3"></div>
+        </div>
+        
+        <div class="emptySpace"></div>
+    </div>
+    
+    
+    <script type="text/javascript" src="billboard.js"></script>
+    <script type="text/javascript" src="frameChart.js"></script>
+    
+    </div>
+
+</body>
+</html>
