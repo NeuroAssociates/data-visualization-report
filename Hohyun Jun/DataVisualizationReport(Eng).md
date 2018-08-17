@@ -11,6 +11,7 @@ Analyze existing data visualization web frameworks
 * Strength and Weakness  
 
 **This Report was written based on following version of frameworks**
+
   | Framework Name | Version |
   |:--------------:|:-------:|
   |      D3.js     |    v4   |
@@ -23,6 +24,7 @@ Analyze existing data visualization web frameworks
 ---
 To tell the conclusion, the comparison result is as follows.
 * Execution Speed(Quick Order)
+
     | Rank | Framework Name | Average Execution time |
     |:----:|:--------------:|:----------------------:|
     |   1  |      D3.js     |         3~10ms         |
@@ -32,6 +34,7 @@ To tell the conclusion, the comparison result is as follows.
     |   5  |    Toast.js    |        103~181ms       |  
 
 * Level of Difficulty(Easy Order)
+
     | Rank | Framework Name | Learning Curve |
     |:----:|:--------------:|:--------------:|
     |   1  |    Chart.js    |     Shallow    |
@@ -40,6 +43,7 @@ To tell the conclusion, the comparison result is as follows.
     |      |   Echarts.js   |     Shallow    |
     |   3  |      D3.js     |      Steep     |
 * Documentation Level(Well-organized Order)
+
     | Rank | Framework Name | Well-organized |
     |:----:|:--------------:|:--------------:|
     |   1  |  billboard.js  |     Good       |
@@ -48,6 +52,7 @@ To tell the conclusion, the comparison result is as follows.
     |      |    Chart.js    |     Fair       |
     |      |      D3.js     |     Fair       |
 * Diversity of Chart(More Flexible Order)
+
     | Rank | Framework Name | Implementation Flexibility |
     |:----:|:--------------:|:--------------------------:|
     |   1  |      D3.js     |        Very Flexible(You can draw as you like)      |
