@@ -9,22 +9,27 @@ Draw chart using svg, chart.js, billboard.js, google chart, toast UI and compare
 * Check chart diversity and using module
 
 <br>
+
 Call chart library
 ------
+
 1. Chart.js
 ``` r        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 ```
+
 2. Billboard.js
 ```r
  <link rel="stylesheet" href="lib/billboard.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="lib/billboard.js"></script>
 ```
+
 3. Google chart
 ``` r        
    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script
 ```
+
 4. Toast UI
 ``` r
     <link rel="stylesheet" href="https://uicdn.toast.com/tui.chart/latest/tui-chart.min.css">
@@ -44,6 +49,7 @@ You can expect that rest of two chart library are slower the than other chart li
 **Chart.js, Google Chart, D3.js << Billboard.js, Toast UI**
 
 <br>
+
 Difficulty of making chart level of difficulty
 ------
 
@@ -153,6 +159,7 @@ If you want to  write code using Chart.js, Billboard.js and D3.js, you have to t
 **D3.js >>>> Chart.js, billboard.js, Toast.js, Google Chart**
 
 <br>
+
 Compare Execution time
 ------
 This time may different in other environment.<br>
@@ -195,6 +202,7 @@ All the Chart in the Graph are not the same design and datasets, but we can know
 **Google Chart >= D3.js > Chart.js > billboard.js > Toast.js**
 
 <br>
+
 Diversity of chart
 ------
 
