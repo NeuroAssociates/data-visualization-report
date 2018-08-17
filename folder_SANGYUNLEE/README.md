@@ -1,3 +1,5 @@
+#### Written By SANGYUN LEE, KOOKMIN UNIV. SW major 20143087
+
 Compare existed Chart library 
 ======
 
