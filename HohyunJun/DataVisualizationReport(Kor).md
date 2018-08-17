@@ -71,7 +71,9 @@ console.time과 console.timeEnd API를 이용해 Bar, Pie, Bubble, Line 차트�
   echarts.js : 68~110ms
   toast.js : 103~161ms  
 ```
-![Bar](/img/BarChartExecSpeedCompare.png)  
+
+![Bar](/HohyunJun/img/BarChartExecSpeedCompare.png) 
+
 ```
 2. Pie Chart
   d3.js : 3~9ms
@@ -80,7 +82,9 @@ console.time과 console.timeEnd API를 이용해 Bar, Pie, Bubble, Line 차트�
   echarts.js : 62~105ms
   toast.js : 139~181ms
 ```
-![Pie](/img/PieChart_Exec_Speed_Compare.png) 
+
+![Pie](/HohyunJun/img/PieChart_Exec_Speed_Compare.png) 
+
 ```
 3. Bubble Chart
   d3.js : 6~10ms
@@ -89,7 +93,9 @@ console.time과 console.timeEnd API를 이용해 Bar, Pie, Bubble, Line 차트�
   echarts.js : 70~99ms
   toast.js : 116~150ms
 ```
-![Bubble](/img/BubbleChart_Exec_Speed_Compare.png) 
+
+![Bubble](/HohyunJun/img/BubbleChart_Exec_Speed_Compare.png) 
+
 ```  
 4. Line Chart
   d3.js : 6~11ms
@@ -98,7 +104,9 @@ console.time과 console.timeEnd API를 이용해 Bar, Pie, Bubble, Line 차트�
   echarts.js : 86~122ms
   toast.js : 114~159ms
 ```
-![Line](/img/LineChart_Exec_Speed_Compare.png) 
+
+![Line](/HohyunJun/img/LineChart_Exec_Speed_Compare.png) 
+
 물론 각 프레임워크별로 정확하게 똑같은 차트를 그리지는 않았지만, 실행속도에 있어서 유의미한 차이를 보이는 것을 알 수 있다.  
 실행속도는 D3가 가장 빠르고, 두번째는 Chart.js, 세번째는 echarts.js, 네번째는 billboard.js, 끝으로는 Toast.js 가 가장 느렸다.  
 **즉, 실행속도가 빠른 순서로 D3 > Chart.js > echarts.js >=billboard.js > Toast.js**  
