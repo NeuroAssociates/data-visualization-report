@@ -1,0 +1,340 @@
+#main{
+  font-size: 30px;
+  font-family: cursive;
+  padding: 20px 20px;
+  width: 100%;
+  background-color: #e6ccff;
+  overflow: hidden;
+}
+
+body{
+  background-color: #f5ecff;
+}
+
+.menu{
+  overflow: hidden;
+  background-color: #e6ccff;
+  width: 102.7%;
+  font-family: cursive;
+  text-align: center;
+}
+
+.menu a{
+  float: left;
+  display: block;
+  color: #8c8c8c;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover{
+  background: #cc99ff;
+  color: black;
+}
+
+
+/* calculator css */
+
+#calculator{
+  margin-left: 50px;
+}
+#calName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.rButton {
+    fill: red;
+    width: 65px;
+    height: 65px;
+    stroke: black;
+    stroke-width: 3;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tButton {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#display {
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+#cal {
+    border: solid;
+    padding : 15px;
+    width: 320px;
+    float:left;
+}
+
+/* svg graph css */
+#svgName {
+    font-size: 30px;
+    margin-top: -490px;
+    margin-left : 600px;
+    font-family: cursive;
+}
+
+#svgGraph {
+    width: 450px;
+    height: 450px;
+    margin-left : 500px;
+    background-color: white;
+}
+
+/* svg graph animation */
+.bar {
+    transition: all 1s;
+}
+
+
+/* chart.js css */
+#barChartName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+#barChart {
+    background-color: white;
+    margin-left: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+#lineChartName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -385px;
+}
+
+#lineChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: -350px;
+    position:absolute;
+}
+
+#pieChartName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 50px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+#pieChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+#bubbleChartName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 570px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#bubbleChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 85px;
+    position:absolute;
+}
+
+/* d3.js css */
+#d3BarName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+#d3BarGraph {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+
+#d3CircleName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 50px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+#d3CircleGraph {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+#d3LineName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -385px;
+}
+
+#d3LineGraph {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: -350px;
+    position:absolute;
+}
+
+#d3BubbleName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 570px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#d3BubbleGraph {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 85px;
+    position:absolute;
+}
+
+/* billboard.js css */
+#billchart {
+  margin-top:80px;
+}
+
+#billName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.billboard{
+    background-color: white;
+    width: 750px;
+    height: 320px;
+    margin-left: 50px;
+}
+
+
+/* toast.js */
+#toastBarName {
+  font-size: 30px;
+  font-family: cursive;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+#toastBarChart {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin-left: 50px;
+}
+
+#toastLineName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: -385px;
+}
+
+#toastLineChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 550px;
+    margin-top: -350px;
+    position:absolute;
+}
+
+#toastPieName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 50px;
+    margin-left: 140px;
+    position: absolute;
+}
+
+#toastPieChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+#toastBubbleName {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#toastBubbleChart {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 550px;
+    margin-top: 85px;
+    position:absolute;
+}
+
+#chartTimeStamp {
+  background-color: #e6ccff;
+  font-family: cursive;
+  margin-left: 1030px;
+  margin-top: -350px;
+  width: 380px;
+  height: 140px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+
+#billboardchartTimeStamp {
+  background-color: #e6ccff;
+  font-family: cursive;
+  margin-left: 1030px;
+  margin-top: -1120px;
+  width: 380px;
+  height: 140px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
