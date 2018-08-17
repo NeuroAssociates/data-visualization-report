@@ -1,4 +1,4 @@
-#### Written By 전호현, 국민대학교 소프트웨어학부 20132926  
+#### Written By 전호현, 국민대학교 소프트웨어학부 4학년  
 English Version Link : [영어 버전](DataVisualizationReport(Eng).md)  
 [보고서 쓰면서 만든 웹사이트](Data_Visualization/DataVisualization.html)  
 
