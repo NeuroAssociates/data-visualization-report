@@ -10,53 +10,31 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 > Written By HOHYUNJUN, KOOKMIN UNIV. SW major senior
 * [Report(English)](./HohyunJun/DataVisualizationReport(Eng).md)
 * [Report(Korean)](./HohyunJun/DataVisualizationReport(Kor).md)
-* Based project [source code](./HohyunJun/Data_Visualization)
-#### Project view
-* [Bar Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/BarChart.html)
-* [Pie Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/PieChart.html)
-* [Line Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/LineChart.html)
-* [Bubble Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/BubbleChart.html)
+* Based project [source code](./HohyunJun/Data_Visualization) and [view](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/DataVisualization.html)
+
 ***
 
 ## Data Visualization frameworks
 > Written By Hwang SeungAe, KOOKMIN UNIV. SW major junior
 * [Report](./HwangSeungAe/README.md)
-* Based project [source code](./HwangSeungAe)
-#### Project view
-* [D3.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/D3JS.html)
-* [Chart.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/ChartJS.html)
-* [Billboard.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/BillBoardJS.html)
-* [Toast Chart](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/toastChart.html)
+* Based project [source code](./HwangSeungAe) and [view](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/D3JS.html)
 
 ***
 
 ## Data Visualization : Various data visualization Web framework analysis results
 > Written By Kwon Bo Kyeung , KOOKMIN UNIV. SW junior
 * [Report](./KwonBoKyeung/README.md)
-* Based project [source code](./KwonBoKyeung)
-#### Project view
-* [chart.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/chartjs.html)
-* [d3.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/d3js.html)
-* [billboard.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/billboard.html)
-* [toast.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/toastjs.html)
+* Based project [source code](./KwonBoKyeung) and [view](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/main.html)
 
 ***
 
 ## Compare existed Chart library
 > Written By SANGYUN LEE, KOOKMIN UNIV. SW major junior
 * [Report](./SANGYUNLEE/README.md)
-* Based project [source code](./SANGYUNLEE)
-#### Project view
-* [Chart.js](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupChartjs.html)
-* [Billboard.js](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupBillboard.html)
-* [Google Chart](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupGchart.html)
-* [Tui Chart](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupTui.html)
-
+* Based project [source code](./SANGYUNLEE) and [view](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/index.html)
 ***
 
 ## Data Visualization - Chart.js, D3.js, Google Chart, Billboard.js, .... etc.
 > Written By Lee Sun Hong, KOOKMIN UNIV. SW major junior
 * [Report](./SunHongLee/README.md)
-* Based project [source code](./SunHongLee)
-#### Project view
-* [Calculator Project](https://neuroassociates.github.io/DataVisualizationReport/SunHongLee/frameChart.html)
+* Based project [source code](./SunHongLee) and [view](https://neuroassociates.github.io/DataVisualizationReport/SunHongLee/frameChart.html)
