@@ -11,7 +11,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 * [Report(English)](./HohyunJun/DataVisualizationReport(Eng).md)
 * [Report(Korean)](./HohyunJun/DataVisualizationReport(Kor).md)
 * Based project [source code](./HohyunJun/Data_Visualization)
-#### Web Sites
+#### Project view
 * [Bar Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/BarChart.html)
 * [Pie Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/PieChart.html)
 * [Line Chart](https://neuroassociates.github.io/DataVisualizationReport/HohyunJun/Data_Visualization/LineChart.html)
@@ -22,7 +22,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 > Written By Hwang SeungAe, KOOKMIN UNIV. SW major junior
 * [Report](./HwangSeungAe/README.md)
 * Based project [source code](./HwangSeungAe)
-#### Web Sites
+#### Project view
 * [D3.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/D3JS.html)
 * [Chart.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/ChartJS.html)
 * [Billboard.js](https://neuroassociates.github.io/DataVisualizationReport/HwangSeungAe/BillBoardJS.html)
@@ -34,7 +34,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 > Written By Kwon Bo Kyeung , KOOKMIN UNIV. SW junior
 * [Report](./KwonBoKyeung/README.md)
 * Based project [source code](./KwonBoKyeung)
-#### Web Sites
+#### Project view
 * [chart.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/chartjs.html)
 * [d3.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/d3js.html)
 * [billboard.js](https://neuroassociates.github.io/DataVisualizationReport/KwonBoKyeung/billboard.html)
@@ -46,7 +46,7 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 > Written By SANGYUN LEE, KOOKMIN UNIV. SW major junior
 * [Report](./SANGYUNLEE/README.md)
 * Based project [source code](./SANGYUNLEE)
-#### Web Sites
+#### Project view
 * [Chart.js](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupChartjs.html)
 * [Billboard.js](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupBillboard.html)
 * [Google Chart](https://neuroassociates.github.io/DataVisualizationReport/SANGYUNLEE/groupGchart.html)
@@ -58,5 +58,5 @@ As a data visualization specialist, we have compared and analyzed the Javascript
 > Written By Lee Sun Hong, KOOKMIN UNIV. SW major junior
 * [Report](./SunHongLee/README.md)
 * Based project [source code](./SunHongLee)
-#### Web Site
+#### Project view
 * [Calculator Project](https://neuroassociates.github.io/DataVisualizationReport/SunHongLee/frameChart.html)
