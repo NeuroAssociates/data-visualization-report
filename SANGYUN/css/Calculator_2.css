@@ -1,0 +1,95 @@
+  body {
+    float : left;
+  }
+
+  #title{
+    font-family: "Comic Sans MS";
+    text-align:center;
+    font-size:40px;
+    padding: 25px;
+  }
+
+  .calculBack{
+    rx:20;
+    ry:20;
+    fill:#9C8DCA;
+    stroke:red;
+    stroke-width:5;
+    opacity:0.5;
+  }
+
+  .calculPanel{
+    font-family: "Comic Sans MS";
+  }
+
+  .displayBox{
+    x:30;
+    y:10;
+    rx:20;
+    ry:20;
+    fill:#ccffff;
+  }
+
+  #display{
+    fill:black;
+  }
+
+  .button {
+    fill:white;
+    stroke: #00ff80;
+    stroke-width:5;
+  }
+
+  .button rect:hover{
+    fill:red;
+  }
+
+  .textButton{
+    fill:black;
+    stroke-width:0;
+    font-size:20;
+    font-family: "arial";
+  }
+
+  .textRec{
+    rx:10;
+    ry:10;
+  }
+
+/* graph */
+
+.grid {
+  stroke: black;
+  stroke-dasharray: 1 2;
+  stroke-width: 1;
+}
+
+.recBar{
+  fill: blue;
+  stroke: black;
+  opacity: 0.7;
+  transition: all 3s;
+}
+
+/* d3 chart */
+
+#d3Container{
+  display:inline-block;
+  width: 900px;
+  height: 500px;
+}
+
+.d3Bar{
+  transition: all 2s;
+}
+
+/* billboard chart */
+#billBoardContainer{
+  display:inline-block;
+  width: 900px;
+  height: 500px;
+}
+
+#billBoardChart svg{
+  display:inline;
+}

@@ -1,0 +1,14 @@
+.chartRow{
+  height:300px;
+  overflow:auto;  
+}
+
+.subTitle{
+  text-align: center;
+}
+
+.allChart{
+  height:300px;
+  width:500px;
+  display:inline-block;
+}
